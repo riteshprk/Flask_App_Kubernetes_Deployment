@@ -33,7 +33,6 @@ Parameters:
   GitHubToken: 
     Type: String
     NoEcho: true
-    Default:
     Description: Github access token
     MinLength: 3
     MaxLength: 100
