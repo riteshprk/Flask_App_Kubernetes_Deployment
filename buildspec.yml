@@ -23,7 +23,7 @@ phases:
         - pytest test_main.py
   build:
     commands:
-      - docker build --tag $REPOSITORY_URI:$TAG .
+      - docker build --tag $REPOSITORY_URI:$TAG --privileged.
 
   post_build:
     commands:
