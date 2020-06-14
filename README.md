@@ -25,7 +25,7 @@ The app relies on a secret set as the environment variable `JWT_SECRET` to produ
      
 ## Project Steps
 
-Completing the project involves several steps:
+Completing the project involved several steps:
 
 1. Write a Dockerfile for a simple Flask API
 2. Build and test the container locally
@@ -34,4 +34,4 @@ Completing the project involves several steps:
 5. Create a CodePipeline pipeline triggered by GitHub checkins
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
-For more detail about each of these steps, see the project lesson [here](https://classroom.udacity.com/nanodegrees/nd004/parts/1d842ebf-5b10-4749-9e5e-ef28fe98f173/modules/ac13842f-c841-4c1a-b284-b47899f4613d/lessons/becb2dac-c108-4143-8f6c-11b30413e28d/concepts/092cdb35-28f7-4145-b6e6-6278b8dd7527).
+
